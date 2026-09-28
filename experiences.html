@@ -8,6 +8,8 @@
       name="description"
       content="Work experience, volunteering, and club involvement of Deepika Arulselvan."
     />
+    //One suggestion would be to add aria-controls and aria-expanded to these buttons, then update aria-expanded in the JavaScript click handler. 
+    //This would help screen reader users understand which section each button controls and whether it’s expanded.
     <link rel="icon" href="images/page-icon.png" />
     <title>Experiences</title>
     <link
@@ -51,6 +53,8 @@
                 Collaborated with a team of software engineers and data
                 scientists on projects supporting the large-scale manufacturing
                 of semiconductor SiC materials.
+             <!--It's great that you used a native <button> element for this interaction. 
+             It provides built-in keyboard support and makes the toggle easier to use. -->
               </p>
               <button
                 type="button"
